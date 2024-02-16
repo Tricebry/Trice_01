@@ -1,26 +1,30 @@
- @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Inter&display=swap');
-
-body {
-    margin: 0;
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Inter&display=swap");
+body{
+    background-color: #ccc;
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    margin-top: 100px;
 }
 
-.container {
-    background-color: #f0f0f0;
-    text-align: center;
+
+h1{
+    margin: 15px 0;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
     margin: 0 auto;
-    width: 600;
+    width: 600px;
+    text-align: left;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
     border: 1px solid #aaa;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
 }
 
 
-
-.paragraph {
-    font-family: 'Inter', sans-serif; /* Use Inter with normal font weight */
-}
