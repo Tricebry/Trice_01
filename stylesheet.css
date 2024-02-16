@@ -10,19 +10,16 @@ body {
 
 .container {
     background-color: #f0f0f0;
-    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 600;
+    border: 1px solid #aaa;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
 }
 
-.content {
-    font-family: 'Arimo', sans-serif; /* Use Arial with bold font weight */
-}
 
-.headline {
-    font-weight: 700;
-    margin-bottom: 10px;
-}
 
 .paragraph {
     font-family: 'Inter', sans-serif; /* Use Inter with normal font weight */
