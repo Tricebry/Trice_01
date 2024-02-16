@@ -1,0 +1,29 @@
+ @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Inter&display=swap');
+
+body {
+    margin: 0;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    font-family: 'Arimo', sans-serif; /* Use Arial with bold font weight */
+}
+
+.headline {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-family: 'Inter', sans-serif; /* Use Inter with normal font weight */
+}
