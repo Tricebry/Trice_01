@@ -18,7 +18,7 @@ body {
 }
 
 .content {
-    font-family: 'Arimo', sans-serif; /* Use Arial with bold font weight */
+    font-family: 'Arimo', sans-serif; 
 }
 
 .headline {
@@ -27,6 +27,6 @@ body {
 }
 
 .paragraph {
-    font-family: 'Inter', sans-serif; /* Use Inter with normal font weight */
+    font-family: 'Inter', sans-serif; 
     padding: 25px;
 }
