@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Times+New+Roman&display=swap');
+
 
 body {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
 }
+
 
 .container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0 auto;
-    width: 600px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 10px;
+margin: 0 auto;
+width: 600px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .content {
-    font-family: 'Arimo', sans-serif; /* Use Arial with bold font weight */
+font-family: 'Montserrat', sans-serif;
 }
+
 
 .headline {
-    font-weight: 700;
-    margin-bottom: 10px;
+font-weight: 900;
+margin-bottom: 10px;
 }
 
+
 .paragraph {
-    font-family: 'Inter', sans-serif; /* Use Inter with normal font weight */
-    padding: 25px;
+font-family: 'Times New Roman', serif;
+padding: 25px;
 }
